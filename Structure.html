@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured HTML</title>
+    <link rel="stylesheet" href="Style/structure.css">
+    <style>
+        .home {
+            /* margin: 20px 50%; */
+            text-decoration: none;
+            border: 2px solid greenyellow;
+            border-radius: 20px 20px 20px 20px;
+            padding: 5px;
+            background-color: black;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list">
+                    <a href="Day-1.html">Day-1</a>
+                    <ul class="sublist">
+                        <li><a href="">Simantic HTML</a></li>
+                        <li><a href="">Audio & Video</a></li>
+                        <li><a href="">Basic Structure</a></li>
+                        <li><a href="">Form</a></li>
+                        <li><a href="">Table</a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="Day-2.html">Day-2</a></li>
+                <li class="list"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>Recent Tour to Cox's Bazar</h2>
+                <p>Trip was <time datetime="17.09.2024">September 17, 2024</time></p>
+                <figure>
+                    <img style="width: 300px;" src="Style/img/tour.jpg" alt="">
+                    <figcaption>Marine Drive Road</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet repellendus harum commodi soluta accusamus quod magnam illum perspiciatis corporis laborum id ad exercitationem quam animi consequatur minima alias aut, labore illo optio hic placeat maxime! Voluptatem, expedita doloribus vero consequuntur quasi deserunt similique vitae perferendis maxime saepe reprehenderit porro!</p>
+                </figure>
+            </header>
+        </article>
+
+        <article>
+            <header>
+                <h2>Cox's Bazar Sea Beach</h2>
+                <p>Trip was <time datetime="18.09.2024">September 18, 2024</time></p>
+                <figure>
+                    <img style="width: 500px;" src="Style/img/PXL_20240918_090029332.MP.jpg" alt="">
+                    <figcaption>Himchori Beach</figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet repellendus harum commodi soluta accusamus quod magnam illum perspiciatis corporis laborum id ad exercitationem quam animi consequatur minima alias aut, labore illo optio hic placeat maxime! Voluptatem, expedita doloribus vero consequuntur quasi deserunt similique vitae perferendis maxime saepe reprehenderit porro!</p>
+                </figure>
+            </header>
+        </article>
+
+        
+
+        <form action="">
+            <h2 style="text-align: center; ">This is a fedback form</h2>
+            <label for="">Name: <input placeholder="Enter your name" type="text" name="" id="name"></label>
+            <label for="">E-mail: <input placeholder="Enter your email" type="email" name="" id="email"></label>
+            <label for="">Mobile: <input placeholder="Enter your Mobile No" type="number" name="" id="email"></label>
+            <fieldset>
+                <legend>Which is your Profession?</legend>
+                <label for=""><input type="radio" name="profession" id="">Student</label>
+                <label for=""><input type="radio" name="profession" id="">Teacher</label>
+                <label for=""><input type="radio" name="profession" id="">Service Holder</label>
+                <label for=""><input type="radio" name="profession" id="">Freelancer</label>
+                    
+            </fieldset>
+            <fieldset>
+                <legend>Which is your hoby?</legend>
+                <label for=""><input type="checkbox" name="hoby" id="">Reading</label>
+                <label for=""><input type="checkbox" name="hoby" id="">Travelling</label>
+                <label for=""><input type="checkbox" name="hoby" id="">Playing</label>
+                <label for=""><input type="checkbox" name="hoby" id="">Watching Movie</label>
+                    
+            </fieldset>
+            <fieldset>
+                <legend>Say something about Travelling </legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+            <br>
+            <br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+            
+        </form>
+
+        <br><br><br>
+        <table>
+            <caption>This is a demo table</caption>
+            <thead>
+                <th>NO.</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sijan</td>
+                    <td>Company A</td>
+                    <td>$10,000/-</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sijan</td>
+                    <td>Company A</td>
+                    <td>$10,000/-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sijan</td>
+                    <td>Company A</td>
+                    <td>$10,000/-</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sijan</td>
+                    <td>Company A</td>
+                    <td>$10,000/-</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total Employee = 4</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br><br><br>
+
+        <section style="text-align: center;">
+            <h2>Explore HTML Tags</h2>
+            <img style="width: 80%;" src="Style/img/www.tutorialrepublic.com_html-reference_html5-tags.php (1).png" alt=""><br>
+            <a href="https://www.tutorialrepublic.com/html-reference/html5-tags.php">Click here to learn more</a>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <small> Copyright &copy; 04.12.2024 Practice · All Rights Reserved</small><br><br>
+        <a href="Day-2.html" class="home">Previous</a>
+    </footer>
+</body>
+</html>
